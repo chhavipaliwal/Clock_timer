@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 function Login() {
@@ -98,7 +98,7 @@ function Login() {
             )}
 
             <div>
-              <p>Don't have an account?</p>
+              <p>Dont have an account?</p>
               <a href="#" className="text-blue-600 underline">
                 Sign Up
               </a>
